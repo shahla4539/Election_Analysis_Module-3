@@ -33,6 +33,27 @@ Later I ran the FOR loop to to read each row in the CSV file
 ### Breakdown of the number of votes and the percentage of total votes for each county in the precinct:
 Following are the code I used to find the percentage and total vote for each county:
 
+First I created a county list and a vote dictionary,
+
+        # 1: Create a county list and county votes dictionary.
+        county_options=[]
+        county_votes={}
+        
+ Then ran the following if statement:
+ 
+        # 4a: Write an if statement that checks that the
+        # county does not match any existing county in the county list.
+        if county_name not in county_options:
+
+            # 4b: Add the existing county to the list of counties.
+            county_options.append(county_name)
+
+            # 4c: Begin tracking the county's vote count.
+            county_votes[county_name]=0
+
+        # 5: Add a vote to that county's vote count.
+        county_votes[county_name]+=1
+
        # 6a: Write a for loop to get the county from the county dictionary.
         for county in county_votes:
 
