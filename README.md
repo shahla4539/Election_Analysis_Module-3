@@ -91,10 +91,47 @@ Created variable then utilized the following codes:
 
 
 
-* Provided is a breakdown of the number of votes and the percentage of the total votes each candidate received.
+### Breakdown of the number of votes and the percentage of the total votes each candidate received:
 
-* Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+        # Candidate Options and candidate votes.
+        candidate_options = []
+        candidate_votes = {}
 
-* Winner of the election, their vote count, the percentage of the total votes
+        # Get the candidate name from each row.
+        candidate_name = row[2]
+
+If statement:
+        # If the candidate does not match any existing candidate add it to
+        # the candidate list
+        if candidate_name not in candidate_options:
+
+        # Add the candidate name to the candidate list.
+        candidate_options.append(candidate_name)
+
+        # And begin tracking that candidate's voter count.
+        candidate_votes[candidate_name] = 0
+
+        # Add a vote to that candidate's count
+        candidate_votes[candidate_name] += 1
+       
+For loop:       
+        # Save the final candidate vote count to the text file.
+        for candidate_name in candidate_votes:
+
+        # Retrieve vote count and percentage
+        votes = candidate_votes.get(candidate_name)
+        vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
+### Winner of the election, their vote count, the percentage of the total votes:
+
+        # Determine winning vote count, winning percentage, and candidate.
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            winning_count = votes
+            winning_candidate = candidate_name
+            winning_percentage = vote_percentage
+
+
 
 
