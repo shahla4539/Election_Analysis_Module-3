@@ -53,6 +53,8 @@ First I created a county list and a vote dictionary,
 
         # 5: Add a vote to that county's vote count.
         county_votes[county_name]+=1
+        
+  Added for loop to do the county vote count as follows:      
 
        # 6a: Write a for loop to get the county from the county dictionary.
         for county in county_votes:
