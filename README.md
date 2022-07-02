@@ -47,6 +47,8 @@ Following are the code I used to find the percentage and total vote for each cou
             f"{county}: {percentage_vote:.1f}% ({vote_count:,})\n")
         print(county_results)
        
+![image](https://user-images.githubusercontent.com/105535250/176986833-af83017f-7ac3-41ef-91e8-06dac75416bd.png)
+
     
 * Name of county which has the largest number of votes
 
