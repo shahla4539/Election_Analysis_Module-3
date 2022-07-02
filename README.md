@@ -126,7 +126,7 @@ For loop:
             
 ![image](https://user-images.githubusercontent.com/105535250/176987795-865b1ab0-dafd-453e-a78a-8be910fcf2a3.png)
 
-### Winner of the election, their vote count, the percentage of the total votes:
+* Winner of the election, their vote count, the percentage of the total votes:
 
         # Determine winning vote count, winning percentage, and candidate.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
@@ -136,6 +136,6 @@ For loop:
 
 ![image](https://user-images.githubusercontent.com/105535250/176987836-313753a9-fcd5-406e-9acf-17906cb6cb05.png)
 
-
+## Election-Audit Summary: 
 
 
