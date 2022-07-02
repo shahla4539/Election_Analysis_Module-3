@@ -12,7 +12,7 @@ After the completion of vote count my job is to generate a vote count report **E
 # Election-Audit Results
 
 
-### Total number of votes cast in this congressional election:
+* **Total number of votes cast in this congressional election:**
 I created a vaiable to initialize the total vote count 
 
         # Initialize a total vote counter 
@@ -30,7 +30,7 @@ Later I ran the FOR loop to to read each row in the CSV file
 ![image](https://user-images.githubusercontent.com/105535250/176986469-ef8c697b-e3c6-4adc-bb73-5448dde126c7.png)
 
 
-### Breakdown of the number of votes and the percentage of total votes for each county in the precinct:
+* **Breakdown of the number of votes and the percentage of total votes for each county in the precinct:**
 Following are the code I used to find the percentage and total vote for each county:
 
 First I created a county list and a vote dictionary,
@@ -73,7 +73,7 @@ First I created a county list and a vote dictionary,
 ![image](https://user-images.githubusercontent.com/105535250/176986833-af83017f-7ac3-41ef-91e8-06dac75416bd.png)
 
     
-### Name of county which has the largest number of votes:
+* **Name of county which has the largest number of votes:**
 Created variable then utilized the following codes:
 
         # 2: Track the largest county and county voter turnout.
@@ -91,7 +91,7 @@ Created variable then utilized the following codes:
 
 
 
-### Breakdown of the number of votes and the percentage of the total votes each candidate received:
+* **Breakdown of the number of votes and the percentage of the total votes each candidate received:**
 
         # Candidate Options and candidate votes.
         candidate_options = []
@@ -126,7 +126,7 @@ For loop:
             
 ![image](https://user-images.githubusercontent.com/105535250/176987795-865b1ab0-dafd-453e-a78a-8be910fcf2a3.png)
 
-* Winner of the election, their vote count, the percentage of the total votes:
+* **Winner of the election, their vote count, the percentage of the total votes:**
 
         # Determine winning vote count, winning percentage, and candidate.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
