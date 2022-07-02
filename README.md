@@ -25,6 +25,9 @@ Later I ran the FOR loop to to read each row in the CSV file
       
         # Add to the total vote count
         total_votes = total_votes + 1
+        
+        ![image](https://user-images.githubusercontent.com/105535250/176986469-ef8c697b-e3c6-4adc-bb73-5448dde126c7.png)
+
 
 * Provided is a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
