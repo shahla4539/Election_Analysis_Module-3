@@ -137,5 +137,7 @@ For loop:
 ![image](https://user-images.githubusercontent.com/105535250/176987836-313753a9-fcd5-406e-9acf-17906cb6cb05.png)
 
 ## Election-Audit Summary: 
+I take pride to introduce pyhton to the Election Commission and successfully finishing the Audit. I believe that the codes we created can be effectively utilized for congressional, sanatorial or local elections just by doing minor modification in the categories and the headers.
+Further modification can be done in the codes to count the votes if two candidate earned same number of votes. 
 
 
