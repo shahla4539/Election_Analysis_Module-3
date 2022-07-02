@@ -14,11 +14,14 @@ After the completion of vote count my job is to generate a vote count report **E
 
 ### Total number of votes cast in this congressional election:
 I created a vaiable to initialize the total vote count 
-    Initialize a total vote counter 
-                total_votes = 0
+
+        # Initialize a total vote counter 
+        total_votes = 0
+
 Later I ran the FOR loop to to read each row in the CSV file
-    For each row in the CSV file.
-    for row in reader:
+   
+        #For each row in the CSV file.
+        for row in reader:
       
         # Add to the total vote count
         total_votes = total_votes + 1
