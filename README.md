@@ -73,7 +73,23 @@ First I created a county list and a vote dictionary,
 ![image](https://user-images.githubusercontent.com/105535250/176986833-af83017f-7ac3-41ef-91e8-06dac75416bd.png)
 
     
-* Name of county which has the largest number of votes
+### Name of county which has the largest number of votes:
+Created variable then utilized the following codes:
+
+        # 2: Track the largest county and county voter turnout.
+        largest_county = ""
+        largest_county_count = 0
+        largest_county_percentage = 0
+        
+        # 6f: Write an if statement to determine the winning county and get its vote count.
+        if largest_county_count<vote_count:
+            largest_county = county
+            largest_county_count = vote_count
+            largest_county_percentage = percentage_vote
+            
+  ![image](https://user-images.githubusercontent.com/105535250/176987270-03336bd5-3f94-4355-9925-0638c0ea9a29.png)
+
+
 
 * Provided is a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
