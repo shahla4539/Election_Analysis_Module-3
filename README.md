@@ -30,8 +30,24 @@ Later I ran the FOR loop to to read each row in the CSV file
 ![image](https://user-images.githubusercontent.com/105535250/176986469-ef8c697b-e3c6-4adc-bb73-5448dde126c7.png)
 
 
-* Provided is a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+### Breakdown of the number of votes and the percentage of total votes for each county in the precinct:
+Following are the code I used to find the percentage and total vote for each county:
 
+       # 6a: Write a for loop to get the county from the county dictionary.
+        for county in county_votes:
+
+        # 6b: Retrieve the county vote count.
+        vote_count=county_votes[county]
+
+        # 6c: Calculate the percentage of votes for the county.
+        percentage_vote=(vote_count/total_votes)*100.0
+
+        # 6d: Print the county results to the terminal.
+        county_results = (
+            f"{county}: {percentage_vote:.1f}% ({vote_count:,})\n")
+        print(county_results)
+       
+    
 * Name of county which has the largest number of votes
 
 * Provided is a breakdown of the number of votes and the percentage of the total votes each candidate received.
